@@ -8,13 +8,18 @@
 
 @section('title', 'Home Page')
 
-{{-- @section("styles")
+@section('styles')
     <style>
-        h1{
+        h1 {
             font-size: 100px;
         }
-    </style> --}}
-{{-- @endsection --}}
+
+        body {
+            background-image: url("{{ asset('images/mountains.jpg') }}");
+        }
+    </style>
+@endsection
+
 
 @section('mainContent')
     <h1>Home Page</h1>
